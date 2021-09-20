@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h3>WelCome, The site is under Construction</h3>
-        <img src="https://thumbs.dreamstime.com/b/under-construction-heart-heart-as-under-construction-sign-113817361.jpg" alt="" width="50%"/>
+        
       </main>
 
       <footer className={styles.footer}>
