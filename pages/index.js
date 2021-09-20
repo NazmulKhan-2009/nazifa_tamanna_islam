@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h3>WelCome, The site is under Construction</h3>
-        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex architecto veritatis expedita. Veniam tempora saepe, perferendis praesentium dolorem facilis architecto.</p>
       </main>
 
       <footer className={styles.footer}>
