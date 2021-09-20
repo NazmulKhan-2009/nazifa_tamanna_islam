@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "4": "next dev -p 4000"
+    "export":"next export"
   },
   "dependencies": {
     "next": "11.1.2",
