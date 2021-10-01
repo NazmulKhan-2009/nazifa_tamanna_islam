@@ -1,6 +1,6 @@
 import React from 'react'
-import HeaderSection from '../HeaderSection/HeaderSection';
-import Navbar from '../Navbar/Navbar';
+import HeaderSection from './HeaderSection';
+import Navbar from './Navbar';
 
 export default function Header() {
  return (

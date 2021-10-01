@@ -26,7 +26,8 @@ export default function Navbar() {
    
 
     {/* <NavLink className="back-to-nav navbar-brand brand_scope" to='/'><img src={nav_logo} alt="" width="50%"/> <span>Doctor Care</span></NavLink> */}
-    <Link  href='/'><a>Home</a></Link>
+
+    <div className="back-to-nav navbar-brand brand_scope"><Link  href='/'><a>Nazifa Tamanna Islam</a></Link></div>
    
          
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

@@ -65,7 +65,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          {/* <script src="/js/jquery-min.js"></script>
+          <script src="/js/jquery-min.js"></script>
           <script src="/js/popper.min.js"></script>
           <script src="/js/bootstrap.min.js"></script>
           <script src="/js/owl.carousel.min.js"></script>
@@ -73,10 +73,10 @@ class MyDocument extends Document {
           <script src="/js/jquery.nav.js"></script>
           <script src="/js/scrolling-nav.js"></script>
           <script src="/js/jquery.easing.min.js"></script>  
-          <script src="/js/main.js"></script>
+          {/* <script src="/js/main.js"></script> */}
           <script src="/js/form-validator.min.js"></script>
           <script src="/js/contact-form-script.min.js"></script>
-          <script src="/js/jquery.animatedheadline.min.js"></script> */}
+          <script src="/js/jquery.animatedheadline.min.js"></script>
 
         </body>
         
