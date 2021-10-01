@@ -16,7 +16,7 @@ body {
 
 
 
-/*! NAVBAR CSS */
+/*! NAVBAR CSS starts ↓↓*/
 .navbar .brand_scope img{
 max-width:40px;
 height: auto; 
@@ -351,9 +351,7 @@ height: auto;
  }
 }
 
-
-
-/* word-break: break-all; */
+/*! NAVBAR CSS ends ↑↑*/
 
 
 

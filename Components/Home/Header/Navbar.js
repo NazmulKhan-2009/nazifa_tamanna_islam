@@ -1,22 +1,8 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
-// import nav_logo from '../../../../images/logos/logo.png';
-// import "./navbar.css";
-// import $ from 'jquery';
-// import { Link as SmoothLink } from 'react-scroll';
+
 import Link from 'next/link'
 
 export default function Navbar() {
-
-
- 
-
-  // $('.navbar-nav').onePageNav({
-  //   currentClass: 'active'
-  // });
-
-  
-
 
 
  return (
@@ -38,49 +24,19 @@ export default function Navbar() {
       <ul className="navbar-nav mr-auto w-100 justify-content-end clearfix">
 
     
-        {/* <li className="nav-item active">
-          <a className="nav-link" href="#home">
-            Home
-          </a>
-        </li> 
-         <li className="nav-item">
-          <a className="nav-link" href="#service">
-            Services
-          </a>
-        </li> */}
+        
 
         
 
         <li className="nav-item ">
         
-        {/* <Link className='nav-link'  href="/" >Home</Link> */}
-
+        
         <Link  href='/'><a>Home</a></Link>
         </li>
   
-        {/* <li className="nav-item">
-          <SmoothLink className='nav-link' to="about" smooth={true} duration={800}>About</SmoothLink>
-        </li>
-        
-
-        <li className="nav-item">
-          <SmoothLink className='nav-link' to="service" smooth={true} duration={800}>Service</SmoothLink>
-        </li>
-        <li className="nav-item">
-        <SmoothLink className='nav-link' to="doctor" smooth={true} duration={800}>Doctor</SmoothLink>
-        </li>
-        
-        <li className="nav-item">
-          <SmoothLink className='nav-link' to="blog" smooth={true} duration={800}>Blog</SmoothLink>
-        </li>
-        <li className="nav-item">
-        <SmoothLink className='nav-link' to="online" smooth={true} duration={800}>Online</SmoothLink>
-        </li>
-        <li className="nav-item">
-        <SmoothLink className='nav-link' to="contact" smooth={true} duration={800}>Contact</SmoothLink>
-        </li> */}
+       
          
-        {/* ROUTE  */}
+       
         <li className="nav-item">
            <Link  href='/dashboard'><a>Dashboard</a></Link>
             
@@ -93,9 +49,7 @@ export default function Navbar() {
           </Link>
         </li>
 
-        {/* <li className="nav-item">
-        <a href="#" className="nav-link"><i class="far fa-bell"></i> <span className="badge bg-danger">{`(8)`}</span></a>
-        </li> */}
+       
         
       </ul>
     </div>
