@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={`${main} ${main2} ${main3}`}>
-        <h3>WelCome, The site is under Construction ↓↓ ↑↑</h3>
+        <h3>WelCome, The site is about cooking Blog and now this is under Construction ↓↓ ↑↑</h3>
         <img src="https://thumbs.dreamstime.com/b/under-construction-heart-heart-as-under-construction-sign-113817361.jpg" alt="" width="50%"/>
       </main>
 
