@@ -12,7 +12,7 @@ export default function HeaderSection() {
         
         <div className="row">
           <div className={`col-md-5 mr-auto  my-auto ${styles.get_appoint}`}>           
-              <h3>Your health our first priority Voluptate, <br/> obcaecati! Natus praesentium quidem nesciunt amet in eos saepe mollitia ad.</h3>
+              <h3>Lorem ipsum dolor sit amet.</h3>
           <button className={styles.appointment_btn} >Get Appointment</button>
         
           </div>
