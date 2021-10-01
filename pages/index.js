@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Header from '../Components/Header/Header/Header';
+// import Image from 'next/image'
 import styles from '../styles/Homee.module.css'
 
 export default function Home() {
 
-  const {container,main,main2,main3}=styles
+  const {container}=styles
 
   return (
     <div className={container}>
@@ -15,10 +16,12 @@ export default function Home() {
         <link rel="icon" href="1626375126335.jfif" />
       </Head>
 
-      <main className={`${main} ${main2} ${main3}`}>
+      {/* <main className={`${main} ${main2} ${main3}`}>
         <h3>WelCome, The site is about cooking Blog and now this is under Construction ↓↓ ↑↑</h3>
         <img src="https://thumbs.dreamstime.com/b/under-construction-heart-heart-as-under-construction-sign-113817361.jpg" alt="" width="50%"/>
-      </main>
+      </main> */}
+
+      <Header/>
 
       
     </div>

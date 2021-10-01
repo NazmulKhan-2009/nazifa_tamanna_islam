@@ -40,7 +40,9 @@ class MyDocument extends Document {
             <link rel="stylesheet" href="/css/animate.css"/>
 
         {/* <!-- Main Style --> */}
-            <link rel="stylesheet" href="/css/main.css"/>
+            {/* <link rel="stylesheet" href="/css/main.css"/> */}
+            <link rel="stylesheet" href="/css/globalStyle.css"/>
+            <link rel="stylesheet" href="/css/globalResponsiveStyle.css"/>
 
         {/* <!-- Responsive Style --> */}
             <link rel="stylesheet" href="/css/responsive.css"/>
