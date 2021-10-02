@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
+  background: #e4ebe9 url(../public/images/background/background_img_3.png) repeat top left;
+
 }
 
 * {
@@ -14,6 +20,34 @@ body {
 
 /*!HEADER SECTION CSS */
 
+.under_cons {
+  word-spacing:.8rem;
+}
+.under_cons .one{
+  color:crimson;
+  font-size: 70px;
+  font-weight:bold;
+}
+.under_cons .two{
+  color:crimson;
+  font-size: 50px;
+  font-weight:bold;
+}
+.under_cons .three{
+  color:crimson;
+  font-size: 40px;
+  font-weight:bold;
+}
+.under_cons .four{
+  color:crimson;
+  font-size: 30px;
+  font-weight:bold;
+}
+.under_cons .five{
+  color:crimson;
+  font-size:20px;
+  font-weight:bold;
+}
 
 
 /*! NAVBAR CSS starts ↓↓*/
@@ -21,6 +55,62 @@ body {
 max-width:40px;
 height: auto; 
 }
+
+.navbar .brand_scope a{
+  text-decoration: none;
+  font-family: 'Charm', cursive;
+  letter-spacing:.2rem;
+  animation: letter_dance 2s linear infinite  5s alternate-reverse ;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  
+}
+
+.navbar .brand_scope span{
+  color:crimson;
+  font-weight:bold;
+  font-size: 25px;
+  animation: round_anim 2s linear infinite;
+  display: inline-block;
+
+  
+  
+}
+/* .navbar .brand_scope{
+  display: flex;
+  align-items: center;
+} */
+
+@keyframes letter_dance {
+  0%{
+     letter-spacing:0rem;
+ 
+    }
+    50%{
+      letter-spacing:.1rem;
+        }
+        80%{
+          letter-spacing:.2rem;
+            }
+        
+ 100%{
+  letter-spacing:.3rem;
+    }
+ }
+
+
+@keyframes round_anim {
+ 0%{
+    transform: rotateY(0deg);
+
+   }
+100%{
+    transform: rotateY(360deg);
+   }
+}
+
+
+
+
 
 
 .navbar-brand {
