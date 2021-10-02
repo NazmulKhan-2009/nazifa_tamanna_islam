@@ -11,9 +11,9 @@ export default function HeaderSection() {
         <div id="button">
         
         <div className="row">
-          <div className={`col-md-5 mr-auto  my-auto ${styles.get_appoint}`}>           
+          <div className={`col-md-10 mr-auto  my-auto ${styles.get_appoint}`}>           
               <h3>Lorem ipsum dolor sit amet.</h3>
-          <button className={styles.appointment_btn} >Get Appointment</button>
+              <button className={styles.appointment_btn} >Get Appointment</button>
         
           </div>
         </div>

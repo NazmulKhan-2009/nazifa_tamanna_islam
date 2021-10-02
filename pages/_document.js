@@ -45,11 +45,11 @@ class MyDocument extends Document {
 
         {/* <!-- Main Style --> */}
             {/* <link rel="stylesheet" href="/css/main.css"/> */}
-            <link rel="stylesheet" href="/css/globalStyle.css"/>
-            <link rel="stylesheet" href="/css/globalResponsiveStyle.css"/>
+            {/* <link rel="stylesheet" href="/css/globalStyle.css"/> */}
+            {/* <link rel="stylesheet" href="/css/globalResponsiveStyle.css"/> */}
 
         {/* <!-- Responsive Style --> */}
-            <link rel="stylesheet" href="/css/responsive.css"/>
+            {/* <link rel="stylesheet" href="/css/responsive.css"/> */}
 
             {/* animated skill header  */}
             <link rel="stylesheet" href="/css/jquery.animatedheadline.css"/>
@@ -75,9 +75,9 @@ class MyDocument extends Document {
           <script src="/js/owl.carousel.min.js"></script>
           <script src="/js/wow.js"></script>
           <script src="/js/jquery.nav.js"></script>
-          <script src="/js/scrolling-nav.js"></script>
+          {/* <script src="/js/scrolling-nav.js"></script> */}
           <script src="/js/jquery.easing.min.js"></script>  
-          {/* <script src="/js/main.js"></script> */}
+          <script src="/js/main.js"></script>
           <script src="/js/form-validator.min.js"></script>
           <script src="/js/contact-form-script.min.js"></script>
           <script src="/js/jquery.animatedheadline.min.js"></script>
